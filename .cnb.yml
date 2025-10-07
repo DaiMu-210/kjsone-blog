@@ -38,4 +38,4 @@ master:
           script:
             - pwd
             - apt-get install -y tree
-            - tree ./dist/
+            - tree ./
