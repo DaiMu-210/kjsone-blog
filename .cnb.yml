@@ -34,8 +34,3 @@ master:
             - ls -la ${COS_UPLOAD_FROM_PATH}
             - coscmd upload -r ${COS_UPLOAD_FROM_PATH} /
             - deactivate
-        - name: tree
-          script:
-            - pwd
-            - apt-get install -y tree
-            - tree ./
