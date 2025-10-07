@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on KJSone</title>
-        <link>http://localhost:1313/page/</link>
+        <link>https://kjsone.dsheep.com/page/</link>
         <description>Recent content in Pages on KJSone</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>KJSone</copyright>
-        <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://kjsone.dsheep.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于</title>
-        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <link>https://kjsone.dsheep.com/%E5%85%B3%E4%BA%8E/</link>
         <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>https://kjsone.dsheep.com/%E5%85%B3%E4%BA%8E/</guid>
         <description></description>
         </item>
         <item>
         <title>归档</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://kjsone.dsheep.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://kjsone.dsheep.com/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://kjsone.dsheep.com/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://kjsone.dsheep.com/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>http://localhost:1313/%E5%8F%8B%E9%93%BE/</link>
+        <link>https://kjsone.dsheep.com/%E5%8F%8B%E9%93%BE/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>https://kjsone.dsheep.com/%E5%8F%8B%E9%93%BE/</guid>
         <description>&lt;blockquote&gt;
 &lt;p&gt;在这个独立博客式微的时代，友情链接的意义是什么？&lt;/p&gt;
 &lt;p&gt;和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能喜欢其他人写的这些文章」的推荐机制，所以除了搜索引擎、社交网络引荐之外，我们应该还需要通过某种方法将这些信息孤岛连接起来：&lt;/p&gt;
