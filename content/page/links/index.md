@@ -28,11 +28,19 @@ comments: true
 
 不接受任何首次来访提交的友链，因为不熟的不会添加。
 
-本站友情链接如下：
+本站友情链接如下(通用模板)：
 
 ```yaml
 name: KJSone's Blog
 avatar: https://kjsone.dsheep.com/img/avatar_hu_49994a7ddec94a21.png
 link: https://kjsone.dsheep.com
-descr: 恐怕只有不断的进步才能阻止自己即将被淘汰的现实。
+descr: 用编程创造世界，用代码改变生活，用知识改变命运。
+```
+Hugo 构建 Stack 主题友链模板:
+
+```yaml
+- title: KJSone's Blog
+    description: 用编程创造世界，用代码改变生活，用知识改变命运。
+    website: https://kjsone.dsheep.com
+    image: https://kjsone.dsheep.com/img/avatar_hu_49994a7ddec94a21.png
 ```
