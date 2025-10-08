@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>杂记 on KJSone</title>
+        <link>http://localhost:1313/tags/%E6%9D%82%E8%AE%B0/</link>
+        <description>Recent content in 杂记 on KJSone</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>KJSone</copyright>
+        <lastBuildDate>Wed, 08 Oct 2025 15:08:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我的Hugo初始化记录</title>
+        <link>http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/</link>
+        <pubDate>Wed, 08 Oct 2025 15:08:23 +0800</pubDate>
+        
+        <guid>http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/</guid>
+        <description>&lt;img src="http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/hugo_logo.png" alt="Featured image of post 我的Hugo初始化记录" /&gt;&lt;p&gt;第一次使用 Hugo 来搭建自己的博客，没有想到的是过程竟然意外的顺利，只需要 &lt;code&gt;下载-&amp;gt;安装-&amp;gt;配置-&amp;gt;发布&lt;/code&gt; 就能搭建出来自己的博客。&lt;/p&gt;
+&lt;p&gt;在安装和配置 Hugo 之前，先来了解 Hugo 是什么，可以用来做什么吧。&lt;/p&gt;
+&lt;h2 id=&#34;什么是-hugo&#34;&gt;什么是 Hugo?
+&lt;/h2&gt;&lt;p&gt;Hugo 是一款用 Go 语言开发的静态网站生成器，以其快速构建和零依赖而著称。它通过将 Markdown 等格式的内容与模板结合，生成纯静态的 HTML 文件，适用于博客、文档站、作品集等场景。Hugo 结合了速度、灵活性和易用性，是现代静态网站开发的理想选择。&lt;/p&gt;
+&lt;h2 id=&#34;安装-hugo&#34;&gt;安装 Hugo
+&lt;/h2&gt;&lt;p&gt;在安装 Hugo 之前需要确保你可以正常访问 Github，如果不能访问 Github 我推荐使用这个工具: &lt;a class=&#34;link&#34; href=&#34;https://steampp.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Steam++&lt;/a&gt;，开启工具后点击这里：&lt;a class=&#34;link&#34; href=&#34;https://github.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;访问 Github&lt;/a&gt;，来测试是否能正常访问 Github。&lt;/p&gt;
+&lt;p&gt;这里我不会介绍从 Hugo Github 主页中下载、安装和配置 Hugo 的方式，我推荐使用 &lt;a class=&#34;link&#34; href=&#34;https://scoop.sh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Scoop&lt;/a&gt; 这个工具来安装 Hugo。这里我会配上 &lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/1931641798855458999&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Scoop 安装教程&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;安装完 Scoop 后，我们只需要在 Windows 终端中输入一行命令:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;然后等待安装完成就好啦。&lt;/p&gt;
+&lt;p&gt;安装成功后，在自己的工作目录中打开终端，来新建一个 Hugo 网站。输入这个命令：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# sitename 为网站名(文件夹名)，推荐使用英文名如 Blog&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site &amp;lt;sitename&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;之后我们在终端输入，下面这行命令，在资源管理器中打开我们新建的网站：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# &amp;lt;sitename&amp;gt; 为你上面创建网站所使用的名称&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;sitename&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;explorer .
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;在资源管理器中打开后你就能看到 Hugo 新建网站的结构了，点击这里跳转到 &lt;a class=&#34;link&#34; href=&#34;https://hugo.opendocs.io/zh-cn/getting-started/directory-structure/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo 目录说明&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;下载主题&#34;&gt;下载主题
+&lt;/h2&gt;&lt;p&gt;拥有一个好看的主题可以让访客留下一个好的观感和阅读体验，所以我们需要寻找一个自己认可的主题来配置到自己的网站上。点击这里跳转到 &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Themes&lt;/a&gt;。来寻找自己喜欢的主题。&lt;/p&gt;
+&lt;p&gt;本文中我将使用 Stack 主题作为演示&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008161811541-1759911501837-1.png&#34;
+	width=&#34;1835&#34;
+	height=&#34;984&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008161811541-1759911501837-1_hu_54c29536133f0011.png 480w, http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008161811541-1759911501837-1_hu_248725bd877d7ce0.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Stack 主题&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;447px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;点击 Download 前往 Github 下载主题。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162023291.png&#34;
+	width=&#34;1831&#34;
+	height=&#34;988&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162023291_hu_aba806b7cd6ccd3b.png 480w, http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162023291_hu_5248a5e132a58399.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Stack Github Home&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;185&#34;
+		data-flex-basis=&#34;444px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162103539.png&#34;
+	width=&#34;1835&#34;
+	height=&#34;983&#34;
+	srcset=&#34;http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162103539_hu_bae886ba6f35e866.png 480w, http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162103539_hu_8c2e688d43207c27.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;Stack Github Releases&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;186&#34;
+		data-flex-basis=&#34;448px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;将下载好的主题解压到自己的网站目录下的 &lt;code&gt;themes&lt;/code&gt; 目录 &lt;em&gt;(如果你仔细看过 &lt;a class=&#34;link&#34; href=&#34;https://hugo.opendocs.io/zh-cn/getting-started/directory-structure/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo 目录说明&lt;/a&gt;的话应该知道我在说什么)&lt;/em&gt; 下并解压，接着重命名为 &lt;code&gt;home-theme-stack&lt;/code&gt;，再删掉压缩包。&lt;/p&gt;
+&lt;p&gt;进入到刚刚解压的主题目录中，找到 &lt;code&gt;exampleSite&lt;/code&gt; 目录并进入，将里面的 &lt;code&gt;hugo.yaml&lt;/code&gt; 文件和 &lt;code&gt;content&lt;/code&gt; 目录&lt;strong&gt;复制&lt;/strong&gt;到你网站的主目录中去。复制完后你会在主目录中看到有两个 &lt;code&gt;hugo&lt;/code&gt; 名称的文件，你需要将 &lt;code&gt;hugo.toml&lt;/code&gt; 删除，保留 &lt;code&gt;hugo.yaml&lt;/code&gt; 也就是我们刚刚复制过来的配置文件。&lt;/p&gt;
+&lt;p&gt;不过这个过程中需要注意的是，因为我们国内网络的问题，无法访问 Youtube 网站，所以需要将他的视频引用示例文件夹给删掉。也就是将 &lt;code&gt;content/post/rich-content&lt;/code&gt; 目录删除。&lt;/p&gt;
+&lt;p&gt;接着保存，输入下面的命令，打开浏览器，地址栏输入 &lt;code&gt;http://localhost:1313/&lt;/code&gt; 就能看到你创建的网站啦。&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# -D 的作用是显示草稿文章(未发布文章)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server -D
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;配置主题&#34;&gt;配置主题
+&lt;/h2&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
