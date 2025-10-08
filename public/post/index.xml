@@ -2,67 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on KJSone</title>
-        <link>http://localhost:1313/post/</link>
+        <link>https://kjsone.dsheep.com/post/</link>
         <description>Recent content in Posts on KJSone</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>KJSone</copyright>
-        <lastBuildDate>Wed, 08 Oct 2025 15:08:23 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>我的Hugo初始化记录</title>
-        <link>http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/</link>
-        <pubDate>Wed, 08 Oct 2025 15:08:23 +0800</pubDate>
-        
-        <guid>http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/</guid>
-        <description>&lt;img src="http://localhost:1313/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/hugo_logo.png" alt="Featured image of post 我的Hugo初始化记录" /&gt;&lt;p&gt;第一次使用 Hugo 来搭建自己的博客，没有想到的是过程竟然意外的顺利，只需要 &lt;code&gt;下载-&amp;gt;安装-&amp;gt;配置-&amp;gt;发布&lt;/code&gt; 就能搭建出来自己的博客。&lt;/p&gt;
-&lt;p&gt;在安装和配置 Hugo 之前，先来了解 Hugo 是什么，可以用来做什么吧。&lt;/p&gt;
-&lt;h2 id=&#34;什么是-hugo&#34;&gt;什么是 Hugo?
-&lt;/h2&gt;&lt;p&gt;Hugo 是一款用 Go 语言开发的静态网站生成器，以其快速构建和零依赖而著称。它通过将 Markdown 等格式的内容与模板结合，生成纯静态的 HTML 文件，适用于博客、文档站、作品集等场景。Hugo 结合了速度、灵活性和易用性，是现代静态网站开发的理想选择。&lt;/p&gt;
-&lt;h2 id=&#34;安装-hugo&#34;&gt;安装 Hugo
-&lt;/h2&gt;&lt;p&gt;在安装 Hugo 之前需要确保你可以正常访问 Github，如果不能访问 Github 我推荐使用这个工具: &lt;a class=&#34;link&#34; href=&#34;https://steampp.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Steam++&lt;/a&gt;，开启工具后点击这里：&lt;a class=&#34;link&#34; href=&#34;https://github.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;访问 Github&lt;/a&gt;，来测试是否能正常访问 Github。&lt;/p&gt;
-&lt;p&gt;这里我不会介绍从 Hugo Github 主页中下载、安装和配置 Hugo 的方式，我推荐使用 &lt;a class=&#34;link&#34; href=&#34;https://scoop.sh/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Scoop&lt;/a&gt; 这个工具来安装 Hugo。这里我会配上 &lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/1931641798855458999&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Scoop 安装教程&lt;/a&gt;。&lt;/p&gt;
-&lt;p&gt;安装完 Scoop 后，我们只需要在 Windows 终端中输入一行命令:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;scoop install hugo
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;然后等待安装完成就好啦。&lt;/p&gt;
-&lt;p&gt;安装成功后，在自己的工作目录中打开终端，来新建一个 Hugo 网站。输入这个命令：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# sitename 为网站名(文件夹名)，推荐使用英文名如 Blog&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site &amp;lt;sitename&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;之后我们在终端输入，下面这行命令，在资源管理器中打开我们新建的网站：&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# &amp;lt;sitename&amp;gt; 为你上面创建网站所使用的名称&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; &amp;lt;sitename&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;explorer .
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;在资源管理器中打开后你就能看到 Hugo 新建网站的结构了，点击这里跳转到 &lt;a class=&#34;link&#34; href=&#34;https://hugo.opendocs.io/zh-cn/getting-started/directory-structure/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo 目录说明&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id=&#34;下载主题&#34;&gt;下载主题
-&lt;/h2&gt;</description>
-        </item>
-        
+        <lastBuildDate></lastBuildDate><atom:link href="https://kjsone.dsheep.com/post/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
