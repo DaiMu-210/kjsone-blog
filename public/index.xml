@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>KJSone</title>
-        <link>https://kjsone.dsheep.com/</link>
+        <link>http://kjsone.dsheep.com/</link>
         <description>Recent content on KJSone</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>KJSone</copyright>
-        <lastBuildDate>Wed, 08 Oct 2025 15:08:23 +0800</lastBuildDate><atom:link href="https://kjsone.dsheep.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 08 Oct 2025 15:08:23 +0800</lastBuildDate><atom:link href="http://kjsone.dsheep.com/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>我的Hugo初始化记录</title>
-        <link>https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/</link>
+        <link>http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/</link>
         <pubDate>Wed, 08 Oct 2025 15:08:23 +0800</pubDate>
         
-        <guid>https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/</guid>
-        <description>&lt;img src="https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/hugo_logo.png" alt="Featured image of post 我的Hugo初始化记录" /&gt;&lt;p&gt;第一次使用 Hugo 来搭建自己的博客，没有想到的是过程竟然意外的顺利，只需要 &lt;code&gt;下载-&amp;gt;安装-&amp;gt;配置-&amp;gt;发布&lt;/code&gt; 就能搭建出来自己的博客。&lt;/p&gt;
+        <guid>http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/</guid>
+        <description>&lt;img src="http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/hugo_logo.png" alt="Featured image of post 我的Hugo初始化记录" /&gt;&lt;p&gt;第一次使用 Hugo 来搭建自己的博客，没有想到的是过程竟然意外的顺利，只需要 &lt;code&gt;下载-&amp;gt;安装-&amp;gt;配置-&amp;gt;发布&lt;/code&gt; 就能搭建出来自己的博客。&lt;/p&gt;
 &lt;p&gt;在安装和配置 Hugo 之前，先来了解 Hugo 是什么，可以用来做什么吧。&lt;/p&gt;
 &lt;h2 id=&#34;什么是-hugo&#34;&gt;什么是 Hugo?
 &lt;/h2&gt;&lt;p&gt;Hugo 是一款用 Go 语言开发的静态网站生成器，以其快速构建和零依赖而著称。它通过将 Markdown 等格式的内容与模板结合，生成纯静态的 HTML 文件，适用于博客、文档站、作品集等场景。Hugo 结合了速度、灵活性和易用性，是现代静态网站开发的理想选择。&lt;/p&gt;
@@ -64,10 +64,10 @@
 &lt;/h2&gt;&lt;p&gt;拥有一个好看的主题可以让访客留下一个好的观感和阅读体验，所以我们需要寻找一个自己认可的主题来配置到自己的网站上。点击这里跳转到 &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo Themes&lt;/a&gt;。来寻找自己喜欢的主题。&lt;/p&gt;
 &lt;p&gt;本文中我将使用 Stack 主题作为演示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008161811541-1759911501837-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1.png&#34;
 	width=&#34;1835&#34;
 	height=&#34;984&#34;
-	srcset=&#34;https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008161811541-1759911501837-1_hu_54c29536133f0011.png 480w, https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008161811541-1759911501837-1_hu_248725bd877d7ce0.png 1024w&#34;
+	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_54c29536133f0011.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_248725bd877d7ce0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack 主题&#34;
@@ -79,10 +79,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击 Download 前往 Github 下载主题。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162023291.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291.png&#34;
 	width=&#34;1831&#34;
 	height=&#34;988&#34;
-	srcset=&#34;https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162023291_hu_aba806b7cd6ccd3b.png 480w, https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162023291_hu_5248a5e132a58399.png 1024w&#34;
+	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_aba806b7cd6ccd3b.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_5248a5e132a58399.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack Github Home&#34;
@@ -93,10 +93,10 @@
 		data-flex-basis=&#34;444px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162103539.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539.png&#34;
 	width=&#34;1835&#34;
 	height=&#34;983&#34;
-	srcset=&#34;https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162103539_hu_bae886ba6f35e866.png 480w, https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/image-20251008162103539_hu_8c2e688d43207c27.png 1024w&#34;
+	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_bae886ba6f35e866.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_8c2e688d43207c27.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack Github Releases&#34;
@@ -399,10 +399,10 @@
         </item>
         <item>
         <title>关于</title>
-        <link>https://kjsone.dsheep.com/%E5%85%B3%E4%BA%8E/</link>
+        <link>http://kjsone.dsheep.com/about/</link>
         <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://kjsone.dsheep.com/%E5%85%B3%E4%BA%8E/</guid>
+        <guid>http://kjsone.dsheep.com/about/</guid>
         <description>&lt;h2 id=&#34;个人简介&#34;&gt;个人简介
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;名称：&lt;a class=&#34;link&#34; href=&#34;https://kjsone.dsheep.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -456,26 +456,26 @@
         </item>
         <item>
         <title>归档</title>
-        <link>https://kjsone.dsheep.com/archives/</link>
+        <link>http://kjsone.dsheep.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>https://kjsone.dsheep.com/archives/</guid>
+        <guid>http://kjsone.dsheep.com/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>搜索</title>
-        <link>https://kjsone.dsheep.com/search/</link>
+        <link>http://kjsone.dsheep.com/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://kjsone.dsheep.com/search/</guid>
+        <guid>http://kjsone.dsheep.com/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>https://kjsone.dsheep.com/%E5%8F%8B%E9%93%BE/</link>
+        <link>http://kjsone.dsheep.com/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://kjsone.dsheep.com/%E5%8F%8B%E9%93%BE/</guid>
+        <guid>http://kjsone.dsheep.com/links/</guid>
         <description>&lt;blockquote&gt;
     &lt;p&gt;&lt;p&gt;在这个独立博客式微的时代，友情链接的意义是什么？&lt;/p&gt;
 &lt;p&gt;和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能喜欢其他人写的这些文章」的推荐机制，所以除了搜索引擎、社交网络引荐之外，我们应该还需要通过某种方法将这些信息孤岛连接起来：&lt;/p&gt;

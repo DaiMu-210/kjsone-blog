@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on KJSone</title>
-        <link>https://kjsone.dsheep.com/categories/</link>
+        <link>http://kjsone.dsheep.com/categories/</link>
         <description>Recent content in Categories on KJSone</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>KJSone</copyright><atom:link href="https://kjsone.dsheep.com/categories/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>KJSone</copyright><atom:link href="http://kjsone.dsheep.com/categories/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>

@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kjsone.dsheep.com/</loc>
+    <loc>http://kjsone.dsheep.com/</loc>
     <lastmod>2025-10-08T15:08:23+08:00</lastmod>
   </url><url>
-    <loc>https://kjsone.dsheep.com/tags/hugo/</loc>
+    <loc>http://kjsone.dsheep.com/tags/hugo/</loc>
     <lastmod>2025-10-08T15:08:23+08:00</lastmod>
   </url><url>
-    <loc>https://kjsone.dsheep.com/post/</loc>
+    <loc>http://kjsone.dsheep.com/post/</loc>
     <lastmod>2025-10-08T15:08:23+08:00</lastmod>
   </url><url>
-    <loc>https://kjsone.dsheep.com/tags/</loc>
+    <loc>http://kjsone.dsheep.com/tags/</loc>
     <lastmod>2025-10-08T15:08:23+08:00</lastmod>
   </url><url>
-    <loc>https://kjsone.dsheep.com/p/%E6%88%91%E7%9A%84hugo%E5%88%9D%E5%A7%8B%E5%8C%96%E8%AE%B0%E5%BD%95/</loc>
+    <loc>http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/</loc>
     <lastmod>2025-10-08T15:08:23+08:00</lastmod>
   </url><url>
-    <loc>https://kjsone.dsheep.com/page/</loc>
+    <loc>http://kjsone.dsheep.com/page/</loc>
     <lastmod>2025-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kjsone.dsheep.com/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>http://kjsone.dsheep.com/about/</loc>
     <lastmod>2025-10-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kjsone.dsheep.com/archives/</loc>
+    <loc>http://kjsone.dsheep.com/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kjsone.dsheep.com/categories/</loc>
+    <loc>http://kjsone.dsheep.com/categories/</loc>
   </url><url>
-    <loc>https://kjsone.dsheep.com/search/</loc>
+    <loc>http://kjsone.dsheep.com/search/</loc>
   </url><url>
-    <loc>https://kjsone.dsheep.com/%E5%8F%8B%E9%93%BE/</loc>
+    <loc>http://kjsone.dsheep.com/links/</loc>
   </url>
 </urlset>

@@ -1,4 +1,4 @@
-baseurl: https://kjsone.dsheep.com/
+baseurl: http://kjsone.dsheep.com/
 languageCode: zh-cn
 theme: hugo-theme-stack
 title: KJSone's
@@ -25,8 +25,8 @@ pagination:
     pagerSize: 3
 
 permalinks:
-    post: /p/:slug/
-    page: /:slug/
+    post: /articles/:year/:month/:slugorcontentbasename
+    page: /:slugorcontentbasename/
 
 params:
     mainSections:
