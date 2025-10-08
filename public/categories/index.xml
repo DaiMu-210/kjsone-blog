@@ -15,6 +15,22 @@
         <guid>http://kjsone.dsheep.com/categories/title-tattle/</guid>
         <description>&lt;img src="http://kjsone.dsheep.com/categories/title-tattle/pexels-chevanon-324028.jpg" alt="Featured image of post 杂谈" /&gt;</description>
         </item>
+        <item>
+        <title>教程</title>
+        <link>http://kjsone.dsheep.com/categories/course/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://kjsone.dsheep.com/categories/course/</guid>
+        <description>&lt;img src="http://kjsone.dsheep.com/categories/course/pexels-julia-m-cameron-4144923.jpg" alt="Featured image of post 教程" /&gt;</description>
+        </item>
+        <item>
+        <title>前端</title>
+        <link>http://kjsone.dsheep.com/categories/frontend/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://kjsone.dsheep.com/categories/frontend/</guid>
+        <description>&lt;img src="http://kjsone.dsheep.com/categories/frontend/pexels-pixabay-270366.jpg" alt="Featured image of post 前端" /&gt;</description>
+        </item>
         
     </channel>
 </rss>
