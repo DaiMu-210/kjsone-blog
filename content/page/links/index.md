@@ -5,6 +5,10 @@ links:
     description: 大羊实验室官方网站
     website: https://dsheep.com
     image: https://www.dsheep.com/img/%E7%94%9F%E8%82%96%E7%BE%8A.png
+  - title: Never7
+    description: 生活明朗，万物可爱
+    website: https://neverup.cn/
+    image: https://neverup.cn/img/avatar_hu12917616198486562349.jpg
 menu:
     main: 
         weight: -50

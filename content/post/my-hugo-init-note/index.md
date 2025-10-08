@@ -9,6 +9,7 @@ hidden: false
 comments: true
 draft: false
 tags: ["Hugo"]
+categories: ["title-tattle"]
 keywords: ["Hugo", "hugo"]
 ---
 

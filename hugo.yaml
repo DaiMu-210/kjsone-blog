@@ -197,6 +197,16 @@ menu:
           url: https://github.com/DaiMu-210
           params:
               icon: brand-github
+        - identifier: bilibili
+          name: 刚正不阿的寇某人
+          url: https://space.bilibili.com/440962725
+          params:
+              icon: brand-bilibili
+        - identifier: Email
+          name: KJSone
+          url: mailto:daimusir@163.com
+          params:
+              icon: brand-email
 
 related:
     includeNewer: true
