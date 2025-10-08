@@ -11,7 +11,7 @@ menu:
         params:
             icon: link
 
-comments: false
+comments: true
 ---
 
 {{< quote author="PRIN BLOG" source="友链" url="https://prinsss.github.io/friends/">}}
