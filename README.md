@@ -1,5 +1,10 @@
 # KJSone's Blog
 
+ ![License CC-BY-SA-4.0](https://img.shields.io/github/license/DaiMu-210/kjsone-blog
+)
+![Website](https://img.shields.io/website?url=http%3A%2F%2Fkjsone.dsheep.com&up_message=kjsone.dsheep.com)
+
+
 Hugo搭建的博客，使用了 [Stack](https://github.com/CaiJimmy/hugo-theme-stack) 主题。会分享一些自己在开发过程中遇到的问题，以及如何解决的。还会分享一些小故事。
 
 ## 个人简介
@@ -21,3 +26,4 @@ Hugo搭建的博客，使用了 [Stack](https://github.com/CaiJimmy/hugo-theme-s
 项目经历：[固件羊](https://easyhey.com)、固件广场
 
 目前在做什么？ 正在学习小程序开发；参加组织的项目开发。
+
