@@ -19,15 +19,7 @@ languages:
         weight: 2
         params:
             sidebar:
-                subtitle: 欢迎来到我的博客，希望你能在这里有所收获！
-
-services:
-    # Change it to your Disqus shortname before using
-    disqus:
-        shortname: "hugo-theme-stack"
-    # GA Tracking ID
-    googleAnalytics:
-        id:
+                subtitle: 用编程创造世界，用代码改变生活，用知识改变命运。
 
 pagination:
     pagerSize: 3
@@ -45,7 +37,7 @@ params:
 
     footer:
         since: 2025
-        customText:
+        customText: "朋友既然来了就留下点什么再走吧~"
 
     dateFormat:
         published: 2006-01-02
@@ -68,8 +60,8 @@ params:
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
-        enabled: false
-        provider: disqus
+        enabled: true
+        provider: utterances
 
         disqusjs:
             shortname:
@@ -79,9 +71,9 @@ params:
             adminLabel:
 
         utterances:
-            repo:
+            repo: "DaiMu-210/kjsone-blog"
             issueTerm: pathname
-            label:
+            label: "comments"
 
         beaudar:
             repo:
