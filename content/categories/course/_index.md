@@ -1,9 +1,8 @@
 ---
 title: "教程"
-description: ""
+description: "来点干货吧~"
 slug: "course"
 image: "pexels-julia-m-cameron-4144923.jpg"
 style:
-    background: "#2a9d8f"
     color: "#fff"
 ---
