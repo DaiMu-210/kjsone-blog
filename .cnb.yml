@@ -10,8 +10,7 @@ master:
           user: $LOGIN_USER
           key: $PRIVATE_KEY
           hosts:
-            - ip1
-            - ip2
+            - 49.232.165.17
           source: ./public/
           target: /www/wwwroot/kjsone.com
 
