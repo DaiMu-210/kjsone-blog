@@ -1,36 +1,25 @@
 # 主分支
 master:
   push:
-    #声明构建环境：https://docs.cnb.cool
-    - docker:
-        image: node:20
-        #volumes缓存：https://docs.cnb.cool/grammar/pipeline.html#volumes
-        volumes:
-          # 使用缓存，同时更新
-          - /root/.npm:cow
-      stages:
-        - name: 安装Python环境
+    - stages:
+      - name: rsync
+        image: tencentcom/rsync
+        # 引用密钥仓库配置文件
+        imports: https://cnb.cool/the_fool/secret-key/-/blob/main/lighthouse_ssh_key_env.yml
+        settings:
+          user: $LOGIN_USER
+          key: $PRIVATE_KEY
+          hosts:
+            - ip1
+            - ip2
+          source: ./public/
+          target: /www/wwwroot/kjsone.com
+
+          # 以上为必填参数，以下为可选参数
+          port: 22
+          prescript:
+            - echo "prescript"
+            - ls /www/wwwroot/kjsone.com
           script:
-            - apt-get update
-            - apt-get install -y python3 python3-pip python3-venv
-        - name: 安装coscmd
-          script:
-            - python3 -m venv venv
-            - . venv/bin/activate
-            - pip install coscmd
-            - deactivate
-        - name: 验证coscmd安装
-          script:
-            - . venv/bin/activate
-            - coscmd --version
-            - deactivate
-        - name: 上传到 COS Bucket
-          imports: 
-            # 引用密钥仓库文件
-            - https://cnb.cool/the_fool/my-blog-key/-/blob/main/cos_key.yml
-          script:
-            - . venv/bin/activate
-            - coscmd config -a ${COS_SECRET_ID} -s ${COS_SECRET_KEY} -b ${COS_BUCKET} -r ${COS_REGION}
-            - ls -la ${COS_UPLOAD_FROM_PATH}
-            - coscmd upload -r ${COS_UPLOAD_FROM_PATH} /
-            - deactivate
+            - echo "after script"
+            - ls /www/wwwroot/kjsone.com
