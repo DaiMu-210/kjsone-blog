@@ -9,10 +9,6 @@ master:
           # 使用缓存，同时更新
           - /root/.npm:cow
       stages:
-        - name: 安装依赖
-          script: npm install
-        - name: 编译
-          script: npm run build
         - name: 安装Python环境
           script:
             - apt-get update
