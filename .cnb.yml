@@ -1,24 +1,31 @@
 master:
   push:
-    stages:
-      - name: 安装Python环境
-        script: 
-          - apt-get update
-          - apt-get install -y python3 python3-pip python3-venv
-      - name: 安装coscmd
-        script:
-          - python3 -m venv venv
-          - . venv/bin/activate
-          - pip install coscmd
-          - deactivate
-      - name: 验证coscmd安装
-        script:
-          - . venv/bin/activate
-          - coscmd --version
-          - deactivate
-      - name: 上传到国内上海 COS 节点
-        imports:
-          - https://cnb.cool/the_fool/my-blog-key/-/blob/main/cos_key.yml
-        script:
-          - . venv/bin/activate
-          - coscmd config -a ${COS_SECRET_ID} -s ${COS_SECRET_KEY} -b ${COS_BUCKET} -r ${COS_REGION}
+    #声明构建环境：https://docs.cnb.cool
+    - docker:
+        image: node:20
+        #volumes缓存：https://docs.cnb.cool/grammar/pipeline.html#volumes
+        volumes:
+          # 使用缓存，同时更新
+          - /root/.npm:cow
+      stages:
+        - name: 安装Python环境
+          script: 
+            - apt-get update
+            - apt-get install -y python3 python3-pip python3-venv
+        - name: 安装coscmd
+          script:
+            - python3 -m venv venv
+            - . venv/bin/activate
+            - pip install coscmd
+            - deactivate
+        - name: 验证coscmd安装
+          script:
+            - . venv/bin/activate
+            - coscmd --version
+            - deactivate
+        - name: 上传到国内上海 COS 节点
+          imports:
+            - https://cnb.cool/the_fool/my-blog-key/-/blob/main/cos_key.yml
+          script:
+            - . venv/bin/activate
+            - coscmd config -a ${COS_SECRET_ID} -s ${COS_SECRET_KEY} -b ${COS_BUCKET} -r ${COS_REGION}
