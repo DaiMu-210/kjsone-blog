@@ -1,3 +1,4 @@
+# 主分支
 master:
   push:
     #声明构建环境：https://docs.cnb.cool
@@ -8,8 +9,12 @@ master:
           # 使用缓存，同时更新
           - /root/.npm:cow
       stages:
+        - name: 安装依赖
+          script: npm install
+        - name: 编译
+          script: npm run build
         - name: 安装Python环境
-          script: 
+          script:
             - apt-get update
             - apt-get install -y python3 python3-pip python3-venv
         - name: 安装coscmd
@@ -23,10 +28,21 @@ master:
             - . venv/bin/activate
             - coscmd --version
             - deactivate
-        - name: 上传到 COS 节点
-          imports:
+        - name: 上传到 COS Bucket
+          imports: 
+            # 引用密钥仓库文件
             - https://cnb.cool/the_fool/my-blog-key/-/blob/main/cos_key.yml
           script:
             - . venv/bin/activate
             - coscmd config -a ${COS_SECRET_ID} -s ${COS_SECRET_KEY} -b ${COS_BUCKET} -r ${COS_REGION}
+            - ls -la ${COS_UPLOAD_FROM_PATH}
+            - coscmd upload -r ${COS_UPLOAD_FROM_PATH} /
             - deactivate
+        - name: tree
+          imports: 
+            # 引用密钥仓库文件
+            - https://cnb.cool/the_fool/my-blog-key/-/blob/main/cos_key.yml
+          script:
+            - pwd
+            - apt-get install -y tree
+            - tree ${COS_UPLOAD_FROM_PATH}
