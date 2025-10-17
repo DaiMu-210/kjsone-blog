@@ -301,7 +301,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;defineProps&lt;/code&gt;: 接受父组件传递给子组件的数据&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;defineEmits&lt;/code&gt;: 子组件向父组件传值&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;defineExpose&lt;/code&gt;: 像父组件暴露属性和方法&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;defineExpose&lt;/code&gt;: 向父组件暴露属性和方法&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;路由传参的方式有哪些如果我在-a-页面有一个参数想要带给-b-页面如何利用路由传参来完成&#34;&gt;路由传参的方式有哪些？如果我在 A 页面有一个参数想要带给 B 页面如何利用路由传参来完成
 &lt;/h2&gt;&lt;p&gt;在 Vue3 中使用 vue-router v4 时，路由传参的核心逻辑与 Vue2 类似，但语法上因 Composition API 的引入有所调整。以下是具体的传参方式和实现步骤：&lt;/p&gt;
