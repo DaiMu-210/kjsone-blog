@@ -9,6 +9,10 @@ links:
     description: 生活明朗，万物可爱
     website: https://neverup.cn/
     image: https://neverup.cn/img/avatar_hu12917616198486562349.jpg
+  - title: THW’s Blog
+    description: 前途似海，来日方长
+    website: https://thw.lol
+    image: https://img.dooki.cloud/i/2025/08/29/68b09e116c4b6.webp
 menu:
     main: 
         weight: -50
@@ -26,21 +30,25 @@ comments: true
 交换友情链接就是一种很棒的架桥方式。
 {{< /quote >}}
 
-不接受任何首次来访提交的友链，因为不熟的不会添加。
+添加友链注意事项：
+
+- 不接受任何首次来访提交的友链，因为不熟的不会添加。
+- 本人会不定期走访已添加的友链，如果网站无法访问则会从友链中删除。
 
 本站友情链接如下(通用模板)：
 
 ```yaml
-name: KJSone's Blog
-avatar: https://kjsone.dsheep.com/img/avatar_hu_49994a7ddec94a21.png
-link: https://kjsone.dsheep.com
-descr: 用编程创造世界，用代码改变生活，用知识改变命运。
+名称: KJSone's Blog
+图标: https://kjsone.dsheep.com/img/avatar_hu_49994a7ddec94a21.png
+链接: https://kjsone.dsheep.com
+简介: 用编程创造世界，用代码改变生活，用知识改变命运。
+RSS: https://kjsone.dsheep.com/index.xml
 ```
 Hugo 构建 Stack 主题友链模板:
 
 ```yaml
 - title: KJSone's Blog
-    description: 用编程创造世界，用代码改变生活，用知识改变命运。
-    website: https://kjsone.dsheep.com
-    image: https://kjsone.dsheep.com/img/avatar_hu_49994a7ddec94a21.png
+  description: 用编程创造世界，用代码改变生活，用知识改变命运。
+  website: https://kjsone.dsheep.com
+  image: https://kjsone.dsheep.com/img/avatar_hu_49994a7ddec94a21.png
 ```

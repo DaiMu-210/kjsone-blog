@@ -22,7 +22,7 @@ languages:
                 subtitle: 用编程创造世界，用代码改变生活，用知识改变命运。
 
 pagination:
-    pagerSize: 3
+    pagerSize: 8
 
 permalinks:
     post: /articles/:year/:month/:slugorcontentbasename
