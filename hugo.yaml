@@ -19,7 +19,7 @@ languages:
         weight: 2
         params:
             sidebar:
-                subtitle: 梦想是不会发光的，发光的是追梦的你
+                subtitle: 梦想是不会发光的，发光的是追梦的你✨
 
 pagination:
     pagerSize: 8
@@ -37,14 +37,14 @@ params:
 
     footer:
         since: 2025
-        customText: "<a href='https://beian.miit.gov.cn/' target='_blank'>冀ICP备2025132398号</a>"
+        customText: "<em style='margin-inline-end: 1rem;'>谁懂啊家人们，最近写代码手都抽筋了😭</em> <a href='https://beian.miit.gov.cn/' target='_blank'>冀ICP备2025132398号</a>"
 
     dateFormat:
         published: 2006-01-02
         lastUpdated: 2006-01-02 15:04 MST
 
     sidebar:
-        emoji: 😜
+        emoji: 🤯
         avatar:
             enabled: true
             local: true
