@@ -39,16 +39,16 @@ comments: true
 
 ```yaml
 名称: KJSone's Blog
-图标: https://kjsone.dsheep.com/img/avatar_hu_49994a7ddec94a21.png
-链接: https://kjsone.dsheep.com
+图标: https://kjsone.com/img/avatar_hu_49994a7ddec94a21.png
+链接: https://kjsone.com/
 简介: 用编程创造世界，用代码改变生活，用知识改变命运。
-RSS: https://kjsone.dsheep.com/index.xml
+RSS: https://kjsone.com/index.xml
 ```
 Hugo 构建 Stack 主题友链模板:
 
 ```yaml
 - title: KJSone's Blog
   description: 用编程创造世界，用代码改变生活，用知识改变命运。
-  website: https://kjsone.dsheep.com
-  image: https://kjsone.dsheep.com/img/avatar_hu_49994a7ddec94a21.png
+  website: https://kjsone.com/
+  image: https://kjsone.com/img/avatar_hu_49994a7ddec94a21.png
 ```

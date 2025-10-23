@@ -19,7 +19,7 @@ languages:
         weight: 2
         params:
             sidebar:
-                subtitle: 用编程创造世界，用代码改变生活，用知识改变命运。
+                subtitle: 梦想是不会发光的，发光的是追梦的你
 
 pagination:
     pagerSize: 8
@@ -37,7 +37,7 @@ params:
 
     footer:
         since: 2025
-        customText: "朋友既然来了就留下点什么再走吧~"
+        customText: "<a href='https://beian.miit.gov.cn/' target='_blank'>冀ICP备2025132398号</a>"
 
     dateFormat:
         published: 2006-01-02
@@ -45,7 +45,6 @@ params:
 
     sidebar:
         emoji: 😜
-        subtitle: 欢迎来到我的博客,希望你能在这里有所收获!
         avatar:
             enabled: true
             local: true
