@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on KJSone</title>
-        <link>http://kjsone.dsheep.com/categories/</link>
+        <link>http://kjsone.com/categories/</link>
         <description>Recent content in Categories on KJSone</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>KJSone</copyright>
-        <lastBuildDate>Thu, 16 Oct 2025 17:37:24 +0800</lastBuildDate><atom:link href="http://kjsone.dsheep.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 16 Oct 2025 17:37:24 +0800</lastBuildDate><atom:link href="http://kjsone.com/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>杂谈</title>
-        <link>http://kjsone.dsheep.com/categories/title-tattle/</link>
+        <link>http://kjsone.com/categories/title-tattle/</link>
         <pubDate>Thu, 16 Oct 2025 17:37:24 +0800</pubDate>
         
-        <guid>http://kjsone.dsheep.com/categories/title-tattle/</guid>
-        <description>&lt;img src="http://kjsone.dsheep.com/categories/title-tattle/pexels-chevanon-324028.jpg" alt="Featured image of post 杂谈" /&gt;</description>
+        <guid>http://kjsone.com/categories/title-tattle/</guid>
+        <description>&lt;img src="http://kjsone.com/categories/title-tattle/pexels-chevanon-324028.jpg" alt="Featured image of post 杂谈" /&gt;</description>
         </item>
         <item>
         <title>CSS</title>
-        <link>http://kjsone.dsheep.com/categories/css/</link>
+        <link>http://kjsone.com/categories/css/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://kjsone.dsheep.com/categories/css/</guid>
-        <description>&lt;img src="http://kjsone.dsheep.com/categories/css/asewjsflfiw.jpg" alt="Featured image of post CSS" /&gt;</description>
+        <guid>http://kjsone.com/categories/css/</guid>
+        <description>&lt;img src="http://kjsone.com/categories/css/asewjsflfiw.jpg" alt="Featured image of post CSS" /&gt;</description>
         </item>
         <item>
         <title>教程</title>
-        <link>http://kjsone.dsheep.com/categories/course/</link>
+        <link>http://kjsone.com/categories/course/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://kjsone.dsheep.com/categories/course/</guid>
-        <description>&lt;img src="http://kjsone.dsheep.com/categories/course/pexels-julia-m-cameron-4144923.jpg" alt="Featured image of post 教程" /&gt;</description>
+        <guid>http://kjsone.com/categories/course/</guid>
+        <description>&lt;img src="http://kjsone.com/categories/course/pexels-julia-m-cameron-4144923.jpg" alt="Featured image of post 教程" /&gt;</description>
         </item>
         <item>
         <title>前端</title>
-        <link>http://kjsone.dsheep.com/categories/frontend/</link>
+        <link>http://kjsone.com/categories/frontend/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://kjsone.dsheep.com/categories/frontend/</guid>
-        <description>&lt;img src="http://kjsone.dsheep.com/categories/frontend/pexels-pixabay-270366.jpg" alt="Featured image of post 前端" /&gt;</description>
+        <guid>http://kjsone.com/categories/frontend/</guid>
+        <description>&lt;img src="http://kjsone.com/categories/frontend/pexels-pixabay-270366.jpg" alt="Featured image of post 前端" /&gt;</description>
         </item>
         
     </channel>

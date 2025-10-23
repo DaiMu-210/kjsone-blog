@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on KJSone</title>
-        <link>http://kjsone.dsheep.com/page/</link>
+        <link>http://kjsone.com/page/</link>
         <description>Recent content in Pages on KJSone</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>KJSone</copyright>
-        <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://kjsone.dsheep.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://kjsone.com/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于</title>
-        <link>http://kjsone.dsheep.com/about/</link>
+        <link>http://kjsone.com/about/</link>
         <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://kjsone.dsheep.com/about/</guid>
+        <guid>http://kjsone.com/about/</guid>
         <description>&lt;h2 id=&#34;个人简介&#34;&gt;个人简介
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;名称：&lt;a class=&#34;link&#34; href=&#34;https://kjsone.dsheep.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -66,26 +66,26 @@
         </item>
         <item>
         <title>归档</title>
-        <link>http://kjsone.dsheep.com/archives/</link>
+        <link>http://kjsone.com/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
         
-        <guid>http://kjsone.dsheep.com/archives/</guid>
+        <guid>http://kjsone.com/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>搜索</title>
-        <link>http://kjsone.dsheep.com/search/</link>
+        <link>http://kjsone.com/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://kjsone.dsheep.com/search/</guid>
+        <guid>http://kjsone.com/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>http://kjsone.dsheep.com/links/</link>
+        <link>http://kjsone.com/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://kjsone.dsheep.com/links/</guid>
+        <guid>http://kjsone.com/links/</guid>
         <description>&lt;blockquote&gt;
     &lt;p&gt;&lt;p&gt;在这个独立博客式微的时代，友情链接的意义是什么？&lt;/p&gt;
 &lt;p&gt;和 Medium、简书之类的写作平台不同，每一个独立博客都是一个信息孤岛。我们没有类似「你可能喜欢其他人写的这些文章」的推荐机制，所以除了搜索引擎、社交网络引荐之外，我们应该还需要通过某种方法将这些信息孤岛连接起来：&lt;/p&gt;

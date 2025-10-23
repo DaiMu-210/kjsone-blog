@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Hugo on KJSone</title>
-        <link>http://kjsone.dsheep.com/tags/hugo/</link>
+        <link>http://kjsone.com/tags/hugo/</link>
         <description>Recent content in Hugo on KJSone</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>KJSone</copyright>
-        <lastBuildDate>Wed, 08 Oct 2025 15:08:23 +0800</lastBuildDate><atom:link href="http://kjsone.dsheep.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 08 Oct 2025 15:08:23 +0800</lastBuildDate><atom:link href="http://kjsone.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>我的Hugo初始化记录</title>
-        <link>http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/</link>
+        <link>http://kjsone.com/articles/2025/10/my-hugo-init-note/</link>
         <pubDate>Wed, 08 Oct 2025 15:08:23 +0800</pubDate>
         
-        <guid>http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/</guid>
-        <description>&lt;img src="http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/hugo_logo.png" alt="Featured image of post 我的Hugo初始化记录" /&gt;&lt;p&gt;第一次使用 Hugo 来搭建自己的博客，没有想到的是过程竟然意外的顺利，只需要 &lt;code&gt;下载-&amp;gt;安装-&amp;gt;配置-&amp;gt;发布&lt;/code&gt; 就能搭建出来自己的博客。&lt;/p&gt;
+        <guid>http://kjsone.com/articles/2025/10/my-hugo-init-note/</guid>
+        <description>&lt;img src="http://kjsone.com/articles/2025/10/my-hugo-init-note/hugo_logo.png" alt="Featured image of post 我的Hugo初始化记录" /&gt;&lt;p&gt;第一次使用 Hugo 来搭建自己的博客，没有想到的是过程竟然意外的顺利，只需要 &lt;code&gt;下载-&amp;gt;安装-&amp;gt;配置-&amp;gt;发布&lt;/code&gt; 就能搭建出来自己的博客。&lt;/p&gt;
 &lt;p&gt;在安装和配置 Hugo 之前，先来了解 Hugo 是什么，可以用来做什么吧。&lt;/p&gt;
 &lt;h2 id=&#34;什么是-hugo&#34;&gt;什么是 Hugo?
 &lt;/h2&gt;&lt;p&gt;Hugo 是一款用 Go 语言开发的静态网站生成器，以其快速构建和零依赖而著称。它通过将 Markdown 等格式的内容与模板结合，生成纯静态的 HTML 文件，适用于博客、文档站、作品集等场景。Hugo 结合了速度、灵活性和易用性，是现代静态网站开发的理想选择。&lt;/p&gt;
@@ -64,10 +64,10 @@
 &lt;/h2&gt;&lt;p&gt;拥有一个好看的主题可以让访客留下一个好的观感和阅读体验，所以我们需要寻找一个自己认可的主题来配置到自己的网站上。点击这里跳转到 &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo Themes&lt;/a&gt;。来寻找自己喜欢的主题。&lt;/p&gt;
 &lt;p&gt;本文中我将使用 Stack 主题作为演示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1.png&#34;
 	width=&#34;1835&#34;
 	height=&#34;984&#34;
-	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_54c29536133f0011.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_248725bd877d7ce0.png 1024w&#34;
+	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_54c29536133f0011.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_248725bd877d7ce0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack 主题&#34;
@@ -79,10 +79,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击 Download 前往 Github 下载主题。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291.png&#34;
 	width=&#34;1831&#34;
 	height=&#34;988&#34;
-	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_aba806b7cd6ccd3b.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_5248a5e132a58399.png 1024w&#34;
+	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_aba806b7cd6ccd3b.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_5248a5e132a58399.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack Github Home&#34;
@@ -93,10 +93,10 @@
 		data-flex-basis=&#34;444px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539.png&#34;
 	width=&#34;1835&#34;
 	height=&#34;983&#34;
-	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_bae886ba6f35e866.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_8c2e688d43207c27.png 1024w&#34;
+	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_bae886ba6f35e866.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_8c2e688d43207c27.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack Github Releases&#34;

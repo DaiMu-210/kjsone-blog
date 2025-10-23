@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on KJSone</title>
-        <link>http://kjsone.dsheep.com/post/</link>
+        <link>http://kjsone.com/post/</link>
         <description>Recent content in Posts on KJSone</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>KJSone</copyright>
-        <lastBuildDate>Thu, 16 Oct 2025 17:37:24 +0800</lastBuildDate><atom:link href="http://kjsone.dsheep.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 16 Oct 2025 17:37:24 +0800</lastBuildDate><atom:link href="http://kjsone.com/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>前端实习生面试总结</title>
-        <link>http://kjsone.dsheep.com/articles/2025/10/interview-summary-anxiang/</link>
+        <link>http://kjsone.com/articles/2025/10/interview-summary-anxiang/</link>
         <pubDate>Thu, 16 Oct 2025 17:37:24 +0800</pubDate>
         
-        <guid>http://kjsone.dsheep.com/articles/2025/10/interview-summary-anxiang/</guid>
-        <description>&lt;img src="http://kjsone.dsheep.com/articles/2025/10/interview-summary-anxiang/pexels-olly-3760072.jpg" alt="Featured image of post 前端实习生面试总结" /&gt;&lt;p&gt;一个阳光明媚到我睁不开眼的中午，我在招聘平台上的沟通有回复了，我像往常一样打开软件把简历投过去，接着说一句“这是我的简历，您看看”后就关闭了软件。&lt;/p&gt;
+        <guid>http://kjsone.com/articles/2025/10/interview-summary-anxiang/</guid>
+        <description>&lt;img src="http://kjsone.com/articles/2025/10/interview-summary-anxiang/pexels-olly-3760072.jpg" alt="Featured image of post 前端实习生面试总结" /&gt;&lt;p&gt;一个阳光明媚到我睁不开眼的中午，我在招聘平台上的沟通有回复了，我像往常一样打开软件把简历投过去，接着说一句“这是我的简历，您看看”后就关闭了软件。&lt;/p&gt;
 &lt;p&gt;意想不到的是，对方居然马上就回复了我，开始问我可以实习多长时间，一周可以干几天，什么时候开始实习。我回复她我一周我能干五天，可以实习三个月，如果有转正机会的话可以干久一点，从26年后就可以开始实习。她了解完情况后就将我的简历转发给了负责人。&lt;/p&gt;
 &lt;p&gt;负责人看完我的简历说我的简历可以，要跟我约面试，我们加上微信后，预约的下午五点面试……&lt;/p&gt;
 &lt;p&gt;预约时间后感觉下午的时间过的飞快，一下子来到了五点，我提前一分钟进入会议，面试官就晚我五秒进入，还是非常准时的。&lt;/p&gt;
@@ -801,10 +801,10 @@
         </item>
         <item>
         <title>日记-关于手机保护膜</title>
-        <link>http://kjsone.dsheep.com/articles/2025/10/daily-about-phone-protective-film/</link>
+        <link>http://kjsone.com/articles/2025/10/daily-about-phone-protective-film/</link>
         <pubDate>Tue, 14 Oct 2025 15:04:51 +0800</pubDate>
         
-        <guid>http://kjsone.dsheep.com/articles/2025/10/daily-about-phone-protective-film/</guid>
+        <guid>http://kjsone.com/articles/2025/10/daily-about-phone-protective-film/</guid>
         <description>&lt;h2 id=&#34;什么我的超声波指纹居然无法识别了&#34;&gt;什么？我的超声波指纹居然无法识别了！
 &lt;/h2&gt;&lt;p&gt;昨天我在 PDD 买的钢化膜到了，满怀激动的贴上后我的超声波指纹居然无法识别了！我就找客服理论，客服找我要证据，我就让我的舍友帮我在一旁录制视频，将原来的指纹删掉再录入……我的指纹就连录入都不行了！&lt;/p&gt;
 &lt;p&gt;视频发过去后，客服回应我说要不赔我两张水凝膜吧。我怎么可能接受，鄙人平时手机不是磕了就是碰了，水凝膜哪里能保护我这可爱的屏幕，再说了我本来就是要买钢化膜，你给我水凝膜算怎么回事，我直接一个不接受。&lt;/p&gt;
@@ -822,11 +822,11 @@
         </item>
         <item>
         <title>我的Hugo初始化记录</title>
-        <link>http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/</link>
+        <link>http://kjsone.com/articles/2025/10/my-hugo-init-note/</link>
         <pubDate>Wed, 08 Oct 2025 15:08:23 +0800</pubDate>
         
-        <guid>http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/</guid>
-        <description>&lt;img src="http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/hugo_logo.png" alt="Featured image of post 我的Hugo初始化记录" /&gt;&lt;p&gt;第一次使用 Hugo 来搭建自己的博客，没有想到的是过程竟然意外的顺利，只需要 &lt;code&gt;下载-&amp;gt;安装-&amp;gt;配置-&amp;gt;发布&lt;/code&gt; 就能搭建出来自己的博客。&lt;/p&gt;
+        <guid>http://kjsone.com/articles/2025/10/my-hugo-init-note/</guid>
+        <description>&lt;img src="http://kjsone.com/articles/2025/10/my-hugo-init-note/hugo_logo.png" alt="Featured image of post 我的Hugo初始化记录" /&gt;&lt;p&gt;第一次使用 Hugo 来搭建自己的博客，没有想到的是过程竟然意外的顺利，只需要 &lt;code&gt;下载-&amp;gt;安装-&amp;gt;配置-&amp;gt;发布&lt;/code&gt; 就能搭建出来自己的博客。&lt;/p&gt;
 &lt;p&gt;在安装和配置 Hugo 之前，先来了解 Hugo 是什么，可以用来做什么吧。&lt;/p&gt;
 &lt;h2 id=&#34;什么是-hugo&#34;&gt;什么是 Hugo?
 &lt;/h2&gt;&lt;p&gt;Hugo 是一款用 Go 语言开发的静态网站生成器，以其快速构建和零依赖而著称。它通过将 Markdown 等格式的内容与模板结合，生成纯静态的 HTML 文件，适用于博客、文档站、作品集等场景。Hugo 结合了速度、灵活性和易用性，是现代静态网站开发的理想选择。&lt;/p&gt;
@@ -877,10 +877,10 @@
 &lt;/h2&gt;&lt;p&gt;拥有一个好看的主题可以让访客留下一个好的观感和阅读体验，所以我们需要寻找一个自己认可的主题来配置到自己的网站上。点击这里跳转到 &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo Themes&lt;/a&gt;。来寻找自己喜欢的主题。&lt;/p&gt;
 &lt;p&gt;本文中我将使用 Stack 主题作为演示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1.png&#34;
 	width=&#34;1835&#34;
 	height=&#34;984&#34;
-	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_54c29536133f0011.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_248725bd877d7ce0.png 1024w&#34;
+	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_54c29536133f0011.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_248725bd877d7ce0.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack 主题&#34;
@@ -892,10 +892,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击 Download 前往 Github 下载主题。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291.png&#34;
 	width=&#34;1831&#34;
 	height=&#34;988&#34;
-	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_aba806b7cd6ccd3b.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_5248a5e132a58399.png 1024w&#34;
+	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_aba806b7cd6ccd3b.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_5248a5e132a58399.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack Github Home&#34;
@@ -906,10 +906,10 @@
 		data-flex-basis=&#34;444px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539.png&#34;
 	width=&#34;1835&#34;
 	height=&#34;983&#34;
-	srcset=&#34;http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_bae886ba6f35e866.png 480w, http://kjsone.dsheep.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_8c2e688d43207c27.png 1024w&#34;
+	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_bae886ba6f35e866.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_8c2e688d43207c27.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack Github Releases&#34;
