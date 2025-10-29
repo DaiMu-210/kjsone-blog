@@ -1,12 +1,12 @@
 <div align="center">
-<a href="http://kjsone.dsheep.com">
-<img alt="Logo" src="static/website_logo.png" style="width: 50%;">
+<a href="http://kjsone.com">
+<img alt="Logo" src="static/favicon.png" style="width: 50%;">
 <h1 style="border-bottom: none;" align="center">KJSone's Blog</h1>
 </a>
 
  ![License CC-BY-SA-4.0](https://img.shields.io/github/license/DaiMu-210/kjsone-blog
 )
-![Website](https://img.shields.io/website?url=http%3A%2F%2Fkjsone.dsheep.com&up_message=kjsone.com)
+![Website](https://img.shields.io/website?url=http%3A%2F%2Fkjsone.com&up_message=kjsone.com)
 
 Hugo搭建的博客，使用了 [Stack](https://github.com/CaiJimmy/hugo-theme-stack) 主题。会分享一些自己在开发过程中遇到的问题，以及如何解决的。还会分享一些小故事。
 
@@ -14,7 +14,7 @@ Hugo搭建的博客，使用了 [Stack](https://github.com/CaiJimmy/hugo-theme-s
 
 ## 个人简介
 
-名称：[KJSone](https://kjsone.dsheep.com)
+名称：[KJSone](https://kjsone.com)
 
 职业：前端开发者
 
