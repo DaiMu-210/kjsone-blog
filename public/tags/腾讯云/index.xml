@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>腾讯云 on KJSone</title>
+        <link>http://kjsone.com/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/</link>
+        <description>Recent content in 腾讯云 on KJSone</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>KJSone</copyright>
+        <lastBuildDate>Thu, 20 Nov 2025 11:33:57 +0800</lastBuildDate><atom:link href="http://kjsone.com/tags/%E8%85%BE%E8%AE%AF%E4%BA%91/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>什么？又有Edgeone羊毛可以薅？</title>
+        <link>http://kjsone.com/articles/2025/11/bg-edgeone-freecode-20251120/</link>
+        <pubDate>Thu, 20 Nov 2025 11:33:57 +0800</pubDate>
+        
+        <guid>http://kjsone.com/articles/2025/11/bg-edgeone-freecode-20251120/</guid>
+        <description>&lt;img src="http://kjsone.com/articles/2025/11/bg-edgeone-freecode-20251120/bg-img.png" alt="Featured image of post 什么？又有Edgeone羊毛可以薅？" /&gt;&lt;p&gt;今天宝塔发布了一篇公众号文章，他们发布了 11.3.0 版本，原文连接 -&amp;gt; &lt;a class=&#34;link&#34; href=&#34;https://mp.weixin.qq.com/s/kRNqovVRBn-0wwneMySXbw&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;点我&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;这篇文章的底部有一段彩蛋环节：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;彩蛋环节：&lt;/p&gt;
+&lt;p&gt;宝塔x腾讯云赠送免费版Edgeone套餐&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;活动详情：https://docs.bt.cn/notices/free-edgeone-plan
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;什么是edgeone&#34;&gt;什么是EdgeOne？
+&lt;/h3&gt;&lt;p&gt;简单来说，&lt;strong&gt;EdgeOne是腾讯云推出的一款集安全、加速于一体的边缘一体化平台&lt;/strong&gt;。你可以把它理解为一个部署在你网站和全球用户之间的“智能屏障”和“高速中转站”。&lt;/p&gt;
+&lt;p&gt;它的核心原理是运用了&lt;strong&gt;边缘计算&lt;/strong&gt;技术，将你的网站内容缓存到全球各地的节点上。当用户访问你的网站时，不再需要每次都回源到你的服务器，而是由离用户最近的边缘节点直接、快速地响应，从而提升访问速度并保障安全。&lt;/p&gt;
+&lt;p&gt;点击前往：&lt;a class=&#34;link&#34; href=&#34;https://www.tencentcloud.com/zh/products/teo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;官方链接&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;使用edgeone有什么好处&#34;&gt;使用EdgeOne有什么好处？
+&lt;/h3&gt;&lt;p&gt;对于宝塔用户，尤其是中小网站站长和开发者而言，使用EdgeOne主要能带来以下几大核心好处：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;**全面提升网站访问速度&lt;/li&gt;
+&lt;li&gt;**强力保障网站安全&lt;/li&gt;
+&lt;li&gt;**有效降低服务器压力和成本&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;总结&#34;&gt;总结
+&lt;/h3&gt;&lt;p&gt;宝塔此次与腾讯云合作赠送EdgeOne套餐，相当于为站长们提供了一个 &lt;strong&gt;“网站全球加速器”&lt;/strong&gt; 和 &lt;strong&gt;“全能安全卫士”&lt;/strong&gt; 的组合礼包。这对于提升网站性能、保障业务稳定安全、以及优化运营成本来说，都是一个非常实在且强大的助力。建议符合条件的宝塔用户不妨尝试一下，亲身体验它带来的改变。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

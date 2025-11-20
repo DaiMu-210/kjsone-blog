@@ -8,6 +8,15 @@ license: Licensed under CC BY-NC-SA 4.0
 hidden: false
 comments: true
 draft: false
+categories:
+  - title-tattle
+tags:
+  - 腾讯云
+keywords:
+  - edgeone
+  - 边缘加速平台
+  - EO
+  - 腾讯云
 ---
 今天宝塔发布了一篇公众号文章，他们发布了 11.3.0 版本，原文连接 -> [点我](https://mp.weixin.qq.com/s/kRNqovVRBn-0wwneMySXbw)。
 
