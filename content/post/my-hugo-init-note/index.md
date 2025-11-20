@@ -58,13 +58,13 @@ explorer .
 
 本文中我将使用 Stack 主题作为演示
 
-![Stack 主题](/image-20251008161811541-1759911501837-1.png)
+![Stack 主题](https://img.kjsone.com/undefined20251119084515436.png?imageSlim)
 
 点击 Download 前往 Github 下载主题。
 
-![Stack Github Home](/image-20251008162023291.png)
+![Stack Github Home](https://img.kjsone.com/undefined20251119084515437.png?imageSlim)
 
-![Stack Github Releases](/image-20251008162103539.png)
+![Stack Github Releases](https://img.kjsone.com/undefined20251119084515433.png?imageSlim)
 
 将下载好的主题解压到自己的网站目录下的 `themes` 目录 _(如果你仔细看过 [Hugo 目录说明](https://hugo.opendocs.io/zh-cn/getting-started/directory-structure/)的话应该知道我在说什么)_ 下并解压，接着重命名为 `home-theme-stack`，再删掉压缩包。
 

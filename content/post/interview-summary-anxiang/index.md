@@ -1,15 +1,18 @@
 ---
-title: "前端实习生面试总结"
+title: 前端实习生面试总结
 description: 这是我第一次面，没有充分的准备，一套流程下来让我觉得就算是实习岗我也相差很远，基础不牢的结果就是面试失败……
 date: 2025-10-16T17:37:24+08:00
 image: pexels-olly-3760072.jpg
 math: false
-license: 
+license:
 hidden: false
 comments: true
 draft: false
-tags: ['日记', '面试']
-categories: ['title-tattle']
+tags:
+  - 日记
+  - 面试
+categories:
+  - title-tattle
 ---
 
 一个阳光明媚到我睁不开眼的中午，我在招聘平台上的沟通有回复了，我像往常一样打开软件把简历投过去，接着说一句“这是我的简历，您看看”后就关闭了软件。

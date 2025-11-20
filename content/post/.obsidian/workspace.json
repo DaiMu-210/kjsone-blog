@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "ec09b1095409f7ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a4e7f43fa5f3006",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "17cc026a9859f7e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bg-edgeone-freecode-20251120/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "87f1d245a5e7c8c0",
+    "type": "split",
+    "children": [
+      {
+        "id": "488c1949a884d47c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5979841b2aaf7b10",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "02c1cffbc9212958",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "50003d223dde2ca4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 435.5
+  },
+  "right": {
+    "id": "e0d5e66d168637fb",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cf1b4f87bf4d6ff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41f993607d8db14d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "3033dce3b39ab098",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "5c7609e0d78696b1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f84ea7704446ec15",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "da7698d6ce3126bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "5979841b2aaf7b10",
+  "lastOpenFiles": [
+    "bg-edgeone-freecode-20251120/bg-img.png",
+    "bg-edgeone-freecode-20251120/微信图片_20251120121538_75_131.png",
+    "bg-edgeone-freecode-20251120/生成文章配图 (4).png",
+    "bg-edgeone-freecode-20251120/生成文章配图 (1).png",
+    "bg-edgeone-freecode-20251120/生成文章配图.png",
+    "my-hugo-init-note/index.md",
+    "my-hugo-init-note/hugo_logo.png",
+    "bg-edgeone-freecode-20251120/index.md",
+    "bg-edgeone-freecode-20251120/bg-img2.png",
+    "daily-about-phone-protective-film/index.md",
+    "bg-edgeone-freecode-20251120",
+    "interview-summary-anxiang/index.md",
+    "my-hugo-init-note/image-20251008161811541-1759911501837-1.png",
+    "my-hugo-init-note/image-20251008162023291.png",
+    "my-hugo-init-note/image-20251008162103539.png",
+    "image-20251008162103539.png.md",
+    "my-hugo-init-note/image-20251008161811541.png"
+  ]
+}

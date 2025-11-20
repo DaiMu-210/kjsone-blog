@@ -64,47 +64,35 @@
 &lt;/h2&gt;&lt;p&gt;拥有一个好看的主题可以让访客留下一个好的观感和阅读体验，所以我们需要寻找一个自己认可的主题来配置到自己的网站上。点击这里跳转到 &lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo Themes&lt;/a&gt;。来寻找自己喜欢的主题。&lt;/p&gt;
 &lt;p&gt;本文中我将使用 Stack 主题作为演示&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1.png&#34;
-	width=&#34;1835&#34;
-	height=&#34;984&#34;
-	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_54c29536133f0011.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008161811541-1759911501837-1_hu_248725bd877d7ce0.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://img.kjsone.com/undefined20251119084515436.png?imageSlim&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack 主题&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;186&#34;
-		data-flex-basis=&#34;447px&#34;
-	
 &gt;&lt;/p&gt;
 &lt;p&gt;点击 Download 前往 Github 下载主题。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291.png&#34;
-	width=&#34;1831&#34;
-	height=&#34;988&#34;
-	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_aba806b7cd6ccd3b.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162023291_hu_5248a5e132a58399.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://img.kjsone.com/undefined20251119084515437.png?imageSlim&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack Github Home&#34;
 	
 	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;185&#34;
-		data-flex-basis=&#34;444px&#34;
-	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539.png&#34;
-	width=&#34;1835&#34;
-	height=&#34;983&#34;
-	srcset=&#34;http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_bae886ba6f35e866.png 480w, http://kjsone.com/articles/2025/10/my-hugo-init-note/image-20251008162103539_hu_8c2e688d43207c27.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://img.kjsone.com/undefined20251119084515433.png?imageSlim&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Stack Github Releases&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;186&#34;
-		data-flex-basis=&#34;448px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;将下载好的主题解压到自己的网站目录下的 &lt;code&gt;themes&lt;/code&gt; 目录 &lt;em&gt;(如果你仔细看过 &lt;a class=&#34;link&#34; href=&#34;https://hugo.opendocs.io/zh-cn/getting-started/directory-structure/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
