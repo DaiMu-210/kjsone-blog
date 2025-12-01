@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "8a4e7f43fa5f3006",
+        "id": "164066e469451fc9",
         "type": "tabs",
         "children": [
           {
-            "id": "17cc026a9859f7e2",
+            "id": "266979ae2563dac3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "bg-edgeone-freecode-20251120/index.md",
-                "mode": "source",
+                "file": "mianshi-notes/index.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -180,12 +180,12 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "17cc026a9859f7e2",
+  "active": "266979ae2563dac3",
   "lastOpenFiles": [
+    "bg-edgeone-freecode-20251120/index.md",
     "bg-edgeone-freecode-20251120/bg-img.png",
     "my-hugo-init-note/index.md",
     "my-hugo-init-note/hugo_logo.png",
-    "bg-edgeone-freecode-20251120/index.md",
     "bg-edgeone-freecode-20251120/微信图片_20251120121538_75_131.png",
     "bg-edgeone-freecode-20251120/生成文章配图 (4).png",
     "bg-edgeone-freecode-20251120/生成文章配图 (1).png",
