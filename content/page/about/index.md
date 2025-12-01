@@ -19,7 +19,7 @@ menu:
 
 - 名称：[KJSone](https://kjsone.com)
 - 职业：前端开发者
-- 组织：[大羊实验室](https://dsheep.com)-前端开发工程师
+- 组织：[大羊实验室](https://www.dsheep.com)-前端开发工程师
 - 技术栈：MySQL、Node.js、Vue3、React、Vue-Router、Pinia、ApiFox、CNB CI/CD、Docker、HTML、CSS、Javascript、Typescript、Axios、Express、Vite、Linux 其他技能正在开发中...
 - 开发喜好：喜欢使用 Tailwindcss，不喜欢组件库
 - 个人爱好：FPS 类游戏、羽毛球、跑步
