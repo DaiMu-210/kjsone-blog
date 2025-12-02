@@ -965,7 +965,7 @@
 &lt;h3 id=&#34;网站信息的配置&#34;&gt;网站信息的配置
 &lt;/h3&gt;&lt;p&gt;网站信息主要包含以下几项：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;基本链接(baseurl)：这个也就是你网站的域名了，比如我的就是 &lt;code&gt;https://kjsone.dsheep.com&lt;/code&gt;。&lt;/li&gt;
+&lt;li&gt;基本链接(baseurl)：这个也就是你网站的域名了，比如我的就是 &lt;code&gt;https://kjsone.com&lt;/code&gt;。&lt;/li&gt;
 &lt;li&gt;网站语言代码(languageCode)：他默认使用的是 &lt;code&gt;en-us&lt;/code&gt;，也就是英文美国，我们中国的语言代码是 &lt;code&gt;zh-cn&lt;/code&gt; (简体中文)。&lt;/li&gt;
 &lt;li&gt;主题(theme)：这个配置不用改（如果你完全按照我之前的步骤来的话）。&lt;/li&gt;
 &lt;li&gt;版权(copyright)：一般这里都写你的名字（网名，比如我就是KJSone）。&lt;/li&gt;

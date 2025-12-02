@@ -87,7 +87,7 @@ hugo server -D
 
 网站信息主要包含以下几项：
 
-- 基本链接(baseurl)：这个也就是你网站的域名了，比如我的就是 `https://kjsone.dsheep.com`。
+- 基本链接(baseurl)：这个也就是你网站的域名了，比如我的就是 `https://kjsone.com`。
 - 网站语言代码(languageCode)：他默认使用的是 `en-us`，也就是英文美国，我们中国的语言代码是 `zh-cn` (简体中文)。
 - 主题(theme)：这个配置不用改（如果你完全按照我之前的步骤来的话）。
 - 版权(copyright)：一般这里都写你的名字（网名，比如我就是KJSone）。

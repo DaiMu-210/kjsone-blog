@@ -41,14 +41,14 @@ comments: true
 名称: KJSone's Blog
 图标: https://kjsone.com/img/avatar_hu_49994a7ddec94a21.png
 链接: https://kjsone.com/
-简介: 用编程创造世界，用代码改变生活，用知识改变命运。
+简介: 梦想是不会发光的，发光的是追梦的你✨
 RSS: https://kjsone.com/index.xml
 ```
 Hugo 构建 Stack 主题友链模板:
 
 ```yaml
 - title: KJSone's Blog
-  description: 用编程创造世界，用代码改变生活，用知识改变命运。
+  description: 梦想是不会发光的，发光的是追梦的你✨
   website: https://kjsone.com/
   image: https://kjsone.com/img/avatar_hu_49994a7ddec94a21.png
 ```

@@ -1,6 +1,6 @@
 ---
 title: 什么？又有Edgeone羊毛可以薅？
-description: 这次宝塔和腾讯云又联合开启一波Edgeone边缘加速兑换码免费领取活动，此时不薅更待何时？？
+description: 这次宝塔和腾讯云联合开启一波Edgeone边缘加速兑换码免费领取活动，此时不薅更待何时？？
 date: 2025-11-20T11:33:57+08:00
 image: bg-img.png
 math: false
