@@ -12,7 +12,8 @@ master:
         - name: 安装Hugo依赖
           script:
             - apt-get update
-            - apt-get install -y hugo
+            - apt-get install -y snapd
+            - snap install hugo --classic
         - name: 安装Python环境
           script:
             - apt-get install -y python3 python3-pip python3-venv
@@ -22,8 +23,9 @@ master:
             - . venv/bin/activate
             - pip install coscmd
             - deactivate
-        - name: 验证coscmd安装
+        - name: 验证coscmd安装和hugo版本
           script:
+            - hugo version
             - . venv/bin/activate
             - coscmd --version
             - deactivate
