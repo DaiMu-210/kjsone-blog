@@ -9,10 +9,12 @@ master:
           # 使用缓存，同时更新
           - /root/.npm:cow
       stages:
-        - name: 安装Hugo依赖
+        - name: 安装系统依赖
           script:
             - apt-get update
             - apt-get install -y snapd
+        - name: 安装Hugo
+          script:
             - snap install hugo --classic
         - name: 安装Python环境
           script:
